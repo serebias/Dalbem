@@ -66,6 +66,7 @@ h3 img{
 }
 .rodape ul li{
     display: inline-block;
+    color: #000000;
 }
 .rodape img{
 width: 40px;
