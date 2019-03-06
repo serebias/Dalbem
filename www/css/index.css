@@ -26,27 +26,46 @@ padding: 0;
     margin-top: 0px;
     font-size: 40px;
 }
-#botoes1{
-    width: 100%;
-    display: inline-block;
+.bloco1{
     text-align: center;
-
+    margin-left: 25px;
+    width: 100%
 }
-#botoes2{
-    width: 100%;
-    display: inline-block;
+.bloco2{
     text-align: center;
-
+    margin-left: 25px;
+    width: 100%;
 }
+
+
 ul {
  list-style-type: none;
+
+  
+ }
+ .empresa a{
+    text-decoration: none;
+    color: #000000;
+    font-family: arial;
+    font-size: 20px;
+ }
+ .servicos a{
+    text-decoration: none;
+    color: #000000;
+    font-family: arial;
+    font-size: 20px;
+
  }
 .servicos {
     width: 110px;
-    float: left;
     margin: auto;
+    float: left;
 }
-.empresa {
+.servicos img{
+    width: 110px;
+}
+
+.empresa img {
     width: 110px;
 
 }
