@@ -59,14 +59,18 @@ h3 img{
 }
 .rodape {
  background-color: #000000;
- color: #000000;
  height: 80px;
  padding-top: 7px;
+ text-align: center;
 
+}
+.rodape a{
+    color: #000000;
 }
 .rodape ul li{
     display: inline-block;
     color: #000000;
+    list-style-type: none;
 }
 .rodape img{
 width: 40px;
