@@ -26,15 +26,15 @@ padding: 0;
     margin-top: 0px;
     font-size: 40px;
 }
-.bloco1{
+#bloco1{
     text-align: center;
     margin-left: 25px;
-    width: 100%
+    
 }
-.bloco2{
+#bloco2{
     text-align: center;
     margin-left: 25px;
-    width: 100%;
+    
 }
 
 
