@@ -68,18 +68,29 @@ body {
     text-align: center;
     font-size: 12px;
 }
-.rodape img{
+h3 img{
     width: 50px;
 }
-h3{
-    margin: 0;
-}
 .rodape {
- text-align: center;
- padding-top: 10px;
  background-color: #000000;
- color: #000000;
+ height: 80px;
+ padding-top: 7px;
+ text-align: center;
+ padding-bottom: 0;
+ margin-bottom: 0;
+
 }
+.rodape a{
+    color: #000000;
+}
+.rodape ul li{
+    display: inline-block;
+    color: #000000;
+    list-style-type: none;
+}
+.rodape img{
+width: 40px;
+ }
 
 
 
