@@ -4,6 +4,7 @@
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
+    <preference name='orientation' value='portrait'/>
     <author email="serebias1169@gmail.com">
       <icon src="res/icon/android/icon-36-ldpi.png" platform="android" width="57" height="57" density="mdpi" />  
     </author>
