@@ -26,27 +26,46 @@ padding: 0;
     margin-top: 0px;
     font-size: 40px;
 }
-#botoes1{
-    width: 100%;
-    display: inline-block;
+#bloco1{
     text-align: center;
-
+    margin-left: 10px;
+    
 }
-#botoes2{
-    width: 100%;
-    display: inline-block;
+#bloco2{
     text-align: center;
-
+    margin-left: 10px;
+    
 }
+
+
 ul {
  list-style-type: none;
+
+  
+ }
+ .empresa a{
+    text-decoration: none;
+    color: #000000;
+    font-family: arial;
+    font-size: 20px;
+ }
+ .servicos a{
+    text-decoration: none;
+    color: #000000;
+    font-family: arial;
+    font-size: 20px;
+
  }
 .servicos {
     width: 110px;
-    float: left;
     margin: auto;
+    float: left;
 }
-.empresa {
+.servicos img{
+    width: 110px;
+}
+
+.empresa img {
     width: 110px;
 
 }
@@ -59,13 +78,20 @@ h3 img{
 }
 .rodape {
  background-color: #000000;
- color: #000000;
  height: 80px;
  padding-top: 7px;
+ text-align: center;
+ padding-bottom: 0;
+ margin-bottom: 0;
 
+}
+.rodape a{
+    color: #000000;
 }
 .rodape ul li{
     display: inline-block;
+    color: #000000;
+    list-style-type: none;
 }
 .rodape img{
 width: 40px;

@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="Motos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Dalbem motos</name>
+    <name>Dalbem Motos</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    
-    <author email="serebias1169@gmail.com" href="http://cordova.io">
-        Dalbem Motos
+    <author email="serebias1169@gmail.com">
+        <icon density="mdpi" height="57" platform="android" src="res/icon/android/icon-36-ldpi.png" width="57" />
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -16,4 +15,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="orientation" value="portrait" />
 </widget>

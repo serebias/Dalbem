@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "709059255184",
+    "firebase_url": "https://dalbem-5fa52.firebaseio.com",
+    "project_id": "dalbem-5fa52",
+    "storage_bucket": "dalbem-5fa52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709059255184:android:955fc2b4c61af23a",
+        "android_client_info": {
+          "package_name": "com.serebias.dalbemmotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709059255184-07nf2blemc2thf2gdnlmb6ksh2atb95c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgUuVxVoDBy6gp3ezQwd47yrhI3yq9idU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

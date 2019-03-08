@@ -8,9 +8,10 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#ffffff;
+    text-align: center;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:15px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -19,16 +20,70 @@ body {
 }
 
 /* Portrait layout (default) */
-     .tudo {
-     text-align: center;
-    }
-    .tudo img{
-     width: 200px;
+.serv{
+    border-bottom: 1px solid #000000;
+}
+.scroll1{
+   overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 300px; 
+  padding-left: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.scroll1 img{
+   height: 300px;
+}
+.spam1{
+    width: 100%;
+    text-align: center;
+}
+.scroll2{
+   overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 300px; 
+  padding-left: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff; 
+}
+.scroll2 img{
+   height: 300px;
+}
+.spam2{
+    width: 100%;
+    text-align: center;
+}
+.scroll3{
+   overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 300px; 
+  padding-left: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff; 
+}
+.scroll3 img{
+   height: 300px;
+}
+.spam3{
+    width: 100%;
+    text-align: center;
+}
+}
+.tudo {
+    text-align: center;
+}
+.tudo img{
      border: 0;
      padding: 0;
      text-align: center;
-    }
-    .conteiner{
+}
+.conteiner{
     text-align: center;
     padding-bottom: 0;
    
@@ -68,18 +123,29 @@ body {
     text-align: center;
     font-size: 12px;
 }
-.rodape img{
+h3 img{
     width: 50px;
 }
-h3{
-    margin: 0;
-}
 .rodape {
- text-align: center;
- padding-top: 10px;
  background-color: #000000;
- color: #000000;
+ height: 80px;
+ padding-top: 7px;
+ text-align: center;
+ padding-bottom: 0;
+ margin-bottom: 0;
+
 }
+.rodape a{
+    color: #000000;
+}
+.rodape ul li{
+    display: inline-block;
+    color: #000000;
+    list-style-type: none;
+}
+.rodape img{
+width: 40px;
+ }
 
 
 
